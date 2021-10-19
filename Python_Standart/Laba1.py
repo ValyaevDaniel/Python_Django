@@ -1,13 +1,9 @@
-RandomNumber = int(input("Введите произвольное число: "))
-BorderNumber = int(input("Введите пограничное число: "))
+Number1 = int(input("Введите произвольное число: "))
+Number2 = int(input("Введите пограничное число: "))
 
-if RandomNumber < BorderNumber:
+if Number1 < Number2:
     print("Произвольное число меньше пограничного")
-elif RandomNumber/3 >= BorderNumber:
+elif Number1/3 >= Number2:
     print("Произвольное число больше пограничного в 3 раза")
 else:
     print("Произвольное число больше пограничного")
-
-
-
-
